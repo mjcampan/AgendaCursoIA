@@ -1,0 +1,15 @@
+{
+  "name": "demo-de-agenda",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agenda personal local para Mauricio Campaña — Lab 02 del Módulo 1 (sin dependencias)",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning cli.js",
+    "web": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
